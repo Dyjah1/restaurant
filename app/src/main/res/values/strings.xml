@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="username">User Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="pwd">Password</string>
+    <string name="conf_pwd">Confirm Password</string>
+    <string name="phone_no">Phone No</string>
+    <string name="btn_1">SIGN UP</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="view1">
+        WHAT IS NEW ON OUR MENU?
+
+        The new Biryani rice paired with the seasoned chicken curry.
+        Haven on a bowl just for 8000Tsh. ENJOY!!
+    </string>
+</resources>

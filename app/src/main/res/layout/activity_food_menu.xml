@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodMenu">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/breakfast"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/lunch"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/dinner"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/salads"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/drinks"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/specials"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </Spinner>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="CHECK OUT"
+                android:id="@+id/check_out"
+                android:textColor="#F06292"
+                android:background="#37474F"
+                android:fontFamily="@font/seasrn__"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
